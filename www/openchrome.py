@@ -21,7 +21,7 @@ os.environ["webdriver.chrome.driver"] = executable_path
 
 driver = webdriver.Chrome(executable_path)
 
-driver.get("http://localhost:9999")
+driver.get("http://172.16.96.52:9999")
 
 
 # 模拟登陆
